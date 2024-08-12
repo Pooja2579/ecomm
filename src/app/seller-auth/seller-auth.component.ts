@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-seller-auth',
   standalone: true,
-  imports: [],
   templateUrl: './seller-auth.component.html',
-  styleUrl: './seller-auth.component.css'
+  styleUrls: ['./seller-auth.component.css'],
+  imports: [FormsModule] 
 })
 export class SellerAuthComponent {
-  
 
+  signUp(data:object):void{
+    // console.log("signUp method called");
+    console.warn(data)
+
+  }
 }

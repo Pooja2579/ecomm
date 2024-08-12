@@ -24,16 +24,16 @@
     color: black;
 }
 .nav .nav-search input{
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid darkgray;
+    color: darkgray;
     flex: 1;
     height: 35px;
     border-right: 0px;
 }
 
 .nav .nav-search button{
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid darkgray;
+    color: darkgray;
     height: 39px;
     border-left: 0px;
 }

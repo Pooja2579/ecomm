@@ -6,3 +6,24 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+.form-input{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 35px;
+    border: 1px solid darkgray;
+    color: darkgray;
+
+}
+.form-button{
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid darkgray;
+
+}
