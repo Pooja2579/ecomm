@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { SellerService } from '../services/seller.service';
 
 @Component({
   selector: 'app-seller-auth',
@@ -9,10 +10,12 @@ import { FormsModule } from '@angular/forms';
   imports: [FormsModule] 
 })
 export class SellerAuthComponent {
+  constructor(private seller: SellerService){}
 
   signUp(data:object):void{
     // console.log("signUp method called");
-    console.warn(data)
+    console.warn(data);
+    this.seller.userSignUp(); 
 
   }
 }
